@@ -1,6 +1,5 @@
 # syntax=docker/dockerfile:1
 FROM python:3.7-alpine
-mem_swappiness: -1
 WORKDIR /code
 ENV FLASK_APP=webui_yt_dlp.py
 ENV FLASK_RUN_HOST=0.0.0.0
